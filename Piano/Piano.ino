@@ -96,5 +96,9 @@ void setup() {
 }
 
 void loop() {
+  noteOn(0);
+  delay(200);
+  noteOff(0);
+  delay(200);
   handleMIDI();
 }
